@@ -1,4 +1,7 @@
 package ru.elvolver.app.vkapi;
 
-public class UserException {
+class UserException extends Exception {
+    UserException (final String message) {
+        super(message);
+    }
 }
